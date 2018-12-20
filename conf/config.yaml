@@ -1,0 +1,32 @@
+recommend_mysql_r:
+    server: 10.9.19.193
+    user: marketserverdb
+    passwd: marketserverdb
+    database: recommenddb
+    port: 3306
+
+recommend_mysql_r_2:
+    server: 10.9.19.193
+    user: marketserverdb
+    passwd: marketserverdb
+    database: recommend_training_db
+    port: 3306
+
+yff_mysql:
+    server: 127.0.0.1
+    user: root
+    passwd: '11340825'
+    database: yff
+    port: 3306
+
+local_mysql:
+    server: localhost
+    user: root
+    passwd: '123456789'
+    database: news_scrap
+    port: 3306
+
+
+
+
+    
