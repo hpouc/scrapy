@@ -1,6 +1,7 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
-import MySQLdb
+# import MySQLdb
+import pymysql
 
 from utils.wrapper import time_consumed
 import logging
@@ -35,7 +36,7 @@ class MysqlCtrl(object):
             'port')) if 'port' in self.db_info else 3306
 
         try:
-            self.conn = MySQLdb.connect(server, user,
+            self.conn = pymysql.connect(server, user,
                                         passwd, database,
                                         port, charset='utf8')
             self.db = self.conn.cursor()
