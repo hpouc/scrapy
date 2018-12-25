@@ -6,7 +6,7 @@ from scrapy.cmdline import execute
 # parser.add_argument('spider', type=str, help='name of spider')
 # args = parser.parse_args()
 # spider_name = args.spider
-spider_name = 'public_utilities'
+spider_name = 'industrial_manufacturing_industry'
 
 try:
     execute(['scrapy', 'crawl', spider_name])

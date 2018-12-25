@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81dab203-1ec6-4016-b0f0-d12464d80adb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/spiders/energy.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/spiders/energy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/spiders/consumer_goods_manufacturing.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/spiders/consumer_goods_manufacturing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/spiders/financial_industry.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/spiders/financial_industry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/spiders/industrial_manufacturing_industry.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/spiders/industrial_manufacturing_industry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/spiders/livestock_farming.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/spiders/livestock_farming.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news/spiders/public_utilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/spiders/public_utilities.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/md5.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/md5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/mysql_ctrl.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/mysql_ctrl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/spiders/raw_material_industry.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/spiders/raw_material_industry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/spiders/telecommunications_industry.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/spiders/telecommunications_industry.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,24 +33,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/news/spiders/public_utilities.py">
+        <entry file="file://$PROJECT_DIR$/news/spiders/industrial_manufacturing_industry.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+            <state relative-caret-position="467">
+              <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
               <folding>
                 <element signature="e#34#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/news/spiders/energy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="144" selection-end-column="69" />
-              <folding>
-                <element signature="e#33#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,6 +58,7 @@
       <find>recom</find>
       <find>news_</find>
       <find>strip</find>
+      <find>j</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -77,15 +68,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/news/spiders/test.py" />
-        <option value="$PROJECT_DIR$/news/spiders/livestock_farming.py" />
-        <option value="$PROJECT_DIR$/news/spiders/financial_industry.py" />
-        <option value="$PROJECT_DIR$/news/spiders/telecommunications_industry.py" />
         <option value="$PROJECT_DIR$/news/spiders/service_iindustry.py" />
         <option value="$PROJECT_DIR$/news/spiders/construction_industry.py" />
-        <option value="$PROJECT_DIR$/news/spiders/raw_material_industry.py" />
         <option value="$PROJECT_DIR$/news/spiders/information_technology_industry.py" />
-        <option value="$PROJECT_DIR$/news/spiders/industrial_manufacturing_industry.py" />
-        <option value="$PROJECT_DIR$/news/spiders/consumer_goods_manufacturing.py" />
         <option value="$PROJECT_DIR$/utils/mysql_ctrl.py" />
         <option value="$PROJECT_DIR$/conf/else" />
         <option value="$PROJECT_DIR$/utils/md5.py" />
@@ -93,15 +78,22 @@
         <option value="$PROJECT_DIR$/news/items.py" />
         <option value="$PROJECT_DIR$/news/settings.py" />
         <option value="$PROJECT_DIR$/news/spiders/energy.py" />
-        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/news/spiders/livestock_farming.py" />
         <option value="$PROJECT_DIR$/news/spiders/public_utilities.py" />
+        <option value="$PROJECT_DIR$/news/spiders/telecommunications_industry.py" />
+        <option value="$PROJECT_DIR$/news/spiders/financial_industry.py" />
+        <option value="$PROJECT_DIR$/news/spiders/raw_material_industry.py" />
+        <option value="$PROJECT_DIR$/news/spiders/consumer_goods_manufacturing.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/news/spiders/industrial_manufacturing_industry.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="185" />
-    <option name="y" value="98" />
-    <option name="width" value="1601" />
+    <option name="x" value="192" />
+    <option name="y" value="74" />
+    <option name="width" value="1261" />
     <option name="height" value="1291" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -112,7 +104,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,6 +142,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,7 +238,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="md5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="raw_material_industry" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scrapy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,11 +246,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/news/spiders" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/md5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/news/spiders/raw_material_industry.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,10 +283,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.raw_material_industry" />
         <item itemvalue="Python.energy" />
         <item itemvalue="Python.settings" />
         <item itemvalue="Python.items" />
-        <item itemvalue="Python.md5" />
       </list>
     </recent_temporary>
   </component>
@@ -321,20 +313,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="185" y="98" width="1601" height="1291" extended-state="0" />
+    <frame x="192" y="74" width="1261" height="1291" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19367088" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19193548" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6972477" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40450376" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294412" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.323603" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.17514595" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3644704" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3294412" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -405,31 +398,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/news/spiders/financial_industry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news/spiders/telecommunications_industry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/news/spiders/information_technology_industry.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news/spiders/raw_material_industry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -440,28 +412,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news/spiders/industrial_manufacturing_industry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/news/pipelines/bloomfilter_redis.py" />
-    <entry file="file://$PROJECT_DIR$/news/spiders/consumer_goods_manufacturing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news/spiders/livestock_farming.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../anaconda3/lib/python3.7/site-packages/scrapy/spiders/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-230">
@@ -513,20 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/config.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/mysql_ctrl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/news/items.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -554,12 +491,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils/mysql_ctrl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/spiders/public_utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="84" column="64" lean-forward="true" selection-start-line="84" selection-start-column="64" selection-end-line="84" selection-end-column="64" />
+          <folding>
+            <element signature="e#34#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/news/spiders/energy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="144" selection-end-column="69" />
+        <state relative-caret-position="245">
+          <caret line="133" column="35" lean-forward="true" selection-start-line="133" selection-start-column="35" selection-end-line="133" selection-end-column="35" />
           <folding>
             <element signature="e#33#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/spiders/telecommunications_industry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/spiders/livestock_farming.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+          <folding>
+            <element signature="e#34#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/spiders/raw_material_industry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/spiders/financial_industry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+          <folding>
+            <element signature="e#34#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/spiders/consumer_goods_manufacturing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="274" column="28" lean-forward="true" selection-start-line="274" selection-start-column="28" selection-end-line="274" selection-end-column="28" />
+          <folding>
+            <element signature="e#34#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -574,10 +586,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news/spiders/public_utilities.py">
+    <entry file="file://$PROJECT_DIR$/news/spiders/industrial_manufacturing_industry.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+        <state relative-caret-position="467">
+          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
           <folding>
             <element signature="e#34#48#0" expanded="true" />
           </folding>
